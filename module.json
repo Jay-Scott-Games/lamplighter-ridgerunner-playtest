@@ -1,0 +1,100 @@
+{
+  "id": "lamplighter-and-ridgerunner-playtest",
+  "title": "Lamplighter and Ridgerunner Playtest",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>Files for the Lamplighter and Ridgerunner playtest. Jay Scott Games. www.jayscottgames.com</p>",
+  "authors": [
+    {
+      "name": "Jay Scott",
+      "email": "jscottgm73@gmail.com",
+      "url": "www.jayscottgames.com",
+      "flags": {}
+    }
+  ],
+  "download": "https://github.com/Jay-Scott-Games/a-bond-bound-with-rhythm/raw/main/a-bond-bound-with-rhythm.zip",
+  "manifest": "https://github.com/Jay-Scott-Games/a-bond-bound-with-rhythm/raw/main/module.json",
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "Ancestries",
+      "label": "Ancestries",
+      "path": "packs/ancestries",
+      "type": "Item",
+      "system": "shadowdark",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "Lamplighter",
+      "label": "Lamplighter",
+      "path": "packs/lamplighter",
+      "type": "Item",
+      "system": "shadowdark",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "Ridgerunner",
+      "label": "Ridgerunner",
+      "path": "packs/ridgerunner",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "shadowdark"
+    },
+    {
+      "name": "Roll_Tables",
+      "label": "Role Tables",
+      "path": "packs/roll-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "shadowdark"
+    },
+    {
+      "name": "Spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "shadowdark"
+    },
+    {
+      "name": "Talents",
+      "label": "Talents",
+      "path": "packs/talents",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "shadowdark"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "shadowdark",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  }
+}
