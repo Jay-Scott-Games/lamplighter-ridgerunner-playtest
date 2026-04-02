@@ -15,7 +15,7 @@
       "flags": {}
     }
   ],
-  "download": "https://github.com/Jay-Scott-Games/lamplighter-ridgerunner-playtest/raw/main/packs.zip",
+  "download": "https://github.com/Jay-Scott-Games/lamplighter-ridgerunner-playtest/raw/main/lamplighter-ridgerunner-playtest.zip",
   "manifest": "https://github.com/Jay-Scott-Games/lamplighter-ridgerunner-playtest/raw/main/module.json",
   "flags": {
     "canUpload": true
