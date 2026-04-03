@@ -1,7 +1,7 @@
 {
   "id": "lamplighter-and-ridgerunner-playtest",
   "title": "Lamplighter and Ridgerunner Playtest",
-  "version": "1.0.0",
+  "version": "1.0.28",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -15,7 +15,7 @@
       "flags": {}
     }
   ],
-  "download": "https://github.com/Jay-Scott-Games/lamplighter-ridgerunner-playtest/raw/main/packs.zip",
+  "download": "https://github.com/Jay-Scott-Games/lamplighter-ridgerunner-playtest/raw/main/lamplighter-ridgerunner-playtest.zip",
   "manifest": "https://github.com/Jay-Scott-Games/lamplighter-ridgerunner-playtest/raw/main/module.json",
   "flags": {
     "canUpload": true
@@ -24,7 +24,7 @@
     {
       "name": "Ancestries",
       "label": "Ancestries",
-      "path": "packs/ancestries",
+      "path": "lamplighter-ridgerunner-playtest/packs/ancestries",
       "type": "Item",
       "system": "shadowdark",
       "ownership": {
@@ -35,7 +35,7 @@
     {
       "name": "Lamplighter",
       "label": "Lamplighter",
-      "path": "packs/lamplighter",
+      "path": "lamplighter-ridgerunner-playtest/packs/lamplighter",
       "type": "Item",
       "system": "shadowdark",
       "ownership": {
@@ -46,7 +46,7 @@
     {
       "name": "Ridgerunner",
       "label": "Ridgerunner",
-      "path": "packs/ridgerunner",
+      "path": "lamplighter-ridgerunner-playtest/packs/ridgerunner",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -57,7 +57,7 @@
     {
       "name": "Roll_Tables",
       "label": "Role Tables",
-      "path": "packs/roll-tables",
+      "path": "lamplighter-ridgerunner-playtest/packs/roll-tables",
       "type": "RollTable",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -68,7 +68,7 @@
     {
       "name": "Spells",
       "label": "Spells",
-      "path": "packs/spells",
+      "path": "lamplighter-ridgerunner-playtest/packs/spells",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -79,7 +79,7 @@
     {
       "name": "Talents",
       "label": "Talents",
-      "path": "packs/talents",
+      "path": "lamplighter-ridgerunner-playtest/packs/talents",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
