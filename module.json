@@ -1,7 +1,7 @@
 {
   "id": "lamplighter-and-ridgerunner-playtest",
   "title": "Lamplighter and Ridgerunner Playtest",
-  "version": "1.0.28",
+  "version": "1.0.3",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -20,6 +20,15 @@
   "flags": {
     "canUpload": true
   },
+"packFolders": [
+        {
+            "name": "Tower of Rime Light",
+            "color": "#f3f3f3",
+            "packs": [
+                "Ancestries", "Lamplighter", "Ridgerunner", "Roll_Tables", "Spells", "Talents"
+            ]
+        }
+  ],
   "packs": [
     {
       "name": "Ancestries",
